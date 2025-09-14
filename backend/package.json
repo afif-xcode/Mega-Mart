@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend folder for e-commerce application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afif-xcode/Mega-Mart.git"
+  },
+  "author": "afif-xcode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afif-xcode/Mega-Mart/issues"
+  },
+  "homepage": "https://github.com/afif-xcode/Mega-Mart#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1",
+    "nodemon": "^3.1.10"
+  }
+}
